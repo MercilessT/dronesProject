@@ -1,6 +1,6 @@
-import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
-import styles from './DroneList.module.css';
+import Footer from '../../components/Footer/Footer';
+import Header from '../../components/Header/Header';
+import styles from './DroneListPage.module.css';
 import drone from "../../assets/images/DronePic.svg";
 
 function Drone(){
@@ -21,7 +21,7 @@ function Drone(){
     )
 }
 
-function DroneList() {
+function DroneListPage() {
     return (
         <div>
             <Header />
@@ -42,4 +42,4 @@ function DroneList() {
     );
 }
 
-export default DroneList;
+export default DroneListPage;

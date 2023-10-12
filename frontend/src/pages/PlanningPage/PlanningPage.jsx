@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from "./Planning.module.css";
-import Header from '../Header/Header';
-import Footer from "../Footer/Footer";
+import styles from "./PlanningPage.module.css";
+import Header from '../../components/Header/Header';
+import Footer from "../../components/Footer/Footer";
 
 const Paragraph = () => {
     return (
@@ -33,7 +33,7 @@ const Map = () => {
     )
 }
 
-const Planning = () => {
+const PlanningPage = () => {
     return (
         <>
             <Header/>
@@ -58,4 +58,4 @@ const Planning = () => {
     );
 };
 
-export default Planning;
+export default PlanningPage;

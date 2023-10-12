@@ -1,6 +1,6 @@
 import React from "react";
 import "./LoginPage.css";
-import Footer from "../Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 
 const LoginPage = () => {
   return (

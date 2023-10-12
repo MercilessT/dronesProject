@@ -1,10 +1,10 @@
 import "./App.css";
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import LoginPage from "./components/LoginPage/LoginPage";
-import ContactsPage from "./components/ContactsPage/ContactsPage"
-import Planning from "./components/Planning/Planning";
-import TestPage from "./components/TestPage/TestPage";
-import DroneList from "./components/DroneList/DroneList";
+import LoginPage from "./pages/LoginPage/LoginPage";
+import ContactsPage from "./pages/ContactsPage/ContactsPage"
+import PlanningPage from "./pages/PlanningPage/PlanningPage";
+import TestPage from "./pages/TestPage/TestPage";
+import DroneListPage from "./pages/DroneListPage/DroneListPage";
 
 function App() {
     return (
@@ -13,8 +13,8 @@ function App() {
                 <Route path="/test" element={<TestPage/>}/>
                 <Route path="/login" element={<LoginPage/>}/>
                 <Route path="/contacts" element={<ContactsPage/>}/>
-                <Route path="/dronelist" element={<DroneList/>}/>
-                <Route path="/planning" element={<Planning/>}/>
+                <Route path="/dronelist" element={<DroneListPage/>}/>
+                <Route path="/planning" element={<PlanningPage/>}/>
             </Routes>
         </Router>
     );
